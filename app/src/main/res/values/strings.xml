@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Wander Planner</string>
+    <string name="daily">Daily</string>
+    <string name="monthly">Monthly</string>
+    <string name="travels">Travels</string>
+    <string name="backButton">Back</string>
+    <string name="nextButton">Next</string>
+    <string name="go_to_daily">Go to Daily</string>
+    <string name="add">ADD</string>
+    <string name="time_task">Time - Task</string>
+    <string name="date">Date</string>
+    <string name="select_the_date">Select the date</string>
+    <string name="date_city">City - date</string>
+    <string name="travelButton">Travel</string>
+</resources>

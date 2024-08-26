@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/customize"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="384dp"
+        android:layout_height="64dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/DailyButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <ImageButton
+        android:id="@+id/DailyButton"
+        android:layout_width="347dp"
+        android:layout_height="193dp"
+        android:contentDescription="@string/daily"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/daily"
+        app:layout_constraintBottom_toTopOf="@+id/MonthlyButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/MonthlyButton"
+        android:layout_width="336dp"
+        android:layout_height="190dp"
+        android:contentDescription="@string/monthly"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/monthly"
+        app:layout_constraintBottom_toTopOf="@+id/TravelButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DailyButton"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/TravelButton"
+        android:layout_width="338dp"
+        android:layout_height="189dp"
+        android:contentDescription="@string/travels"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/travels"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MonthlyButton"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

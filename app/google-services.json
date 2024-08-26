@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "793173334662",
+    "project_id": "orwima-lc",
+    "storage_bucket": "orwima-lc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793173334662:android:1c6a64e10249b848190f07",
+        "android_client_info": {
+          "package_name": "com.company.MyApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793173334662-gu8mu5lg3e2spf0bjn596q87joqimska.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVFdy2kesiZyvMpudERvbxEU8kRlL72Xo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793173334662-gu8mu5lg3e2spf0bjn596q87joqimska.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793173334662:android:17fb559253c7f380190f07",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793173334662-gu8mu5lg3e2spf0bjn596q87joqimska.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVFdy2kesiZyvMpudERvbxEU8kRlL72Xo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793173334662-gu8mu5lg3e2spf0bjn596q87joqimska.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
